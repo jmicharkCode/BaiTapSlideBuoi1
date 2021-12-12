@@ -2,9 +2,11 @@
 public class Bai3 {
 
 	public static void main(String[] args) {
-		System.out.println("Java Runtime Version: " +System.getProperty("java.runtime.version"));
+		
 		String version = System.getProperty("java.version");
 		System.out.println("Java version: " + version);
+		System.out.println("Java Runtime Version: " +System.getProperty("java.runtime.version"));
+	
 		String vm = System.getProperty("java.home");
 		System.out.println("Java Home: " + vm);
 		String vendor = System.getProperty("java.vendor");
